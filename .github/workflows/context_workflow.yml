@@ -1,7 +1,9 @@
 name: context workflow
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - feature
 
 jobs:
   example-job:
