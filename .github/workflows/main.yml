@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'src/**'
-
 jobs:
   filter-check:
     runs-on: ubuntu-latest
