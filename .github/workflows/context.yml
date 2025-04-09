@@ -3,7 +3,7 @@ name: context workflow
 on:
   push:
     branches:
-      - main
+      - feature
 
 jobs:
   example-job:
