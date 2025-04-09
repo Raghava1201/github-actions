@@ -2,8 +2,8 @@ name: Filter Workflow
 
 on:
   push:
-    branches:
-      - main
+    branches-ignore:
+      - dev
 jobs:
   filter-check:
     runs-on: ubuntu-latest
